@@ -1,5 +1,35 @@
-body{
-    margin: 0;
+@font-face {
+  font-family: "Lalezar-Regular";
+
+  src: url(../fonts/Lalezar-Regular.eot) format("eot"),
+    url(../fonts/Lalezar-Regular.ttf) format("ttf"),
+    url(../fonts/Lalezar-Regular.woff) format("woff");
 }
-.logo{
-   
+
+body {
+  margin: 0;
+  font-family: "Lalezar-Regular";
+}
+.logo {
+}
+
+.de-a {
+  text-decoration: none;
+}
+.li-a {
+  list-style-type: none;
+}
+.header-li {
+  float: right;
+  padding: 0px 2px;
+  color: aliceblue;
+  
+}
+.instagram{
+  background-image: url(../logoInsta.jpg);
+  background-position: center;
+  background-size: cover;
+  color: rgba(240, 248, 255, 0.782);
+  border-radius: 20px;
+  padding: 8px;
+}
