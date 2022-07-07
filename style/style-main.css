@@ -11,10 +11,10 @@ body {
   font-family: "Lalezar-Regular";
 }
 @media only screen and (max-width: 412px) {
-  body { max-width: auto;
-    height:auto  ;
+  html { max-width:  410px;
+    
 }
-
+}
 .logo {
 font-size:50px;
 color: rgba(255, 255, 255, 0.838);
