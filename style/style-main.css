@@ -11,6 +11,12 @@ body {
   font-family: "Lalezar-Regular";
 }
 .logo {
+font-size:100PX;
+color: rgba(255, 255, 255, 0.838);
+background-image: url(../img/Shot04.png);
+display: block;
+
+
 }
 
 .de-a {
@@ -23,13 +29,53 @@ body {
   float: right;
   padding: 0px 2px;
   color: aliceblue;
-  
 }
-.instagram{
+.instagram {
+  color: rgba(4, 4, 4, 0.782);
+  padding: 8px;
+}
+.instagram:hover {
   background-image: url(../img/logoInsta.jpg);
   background-position: center;
   background-size: cover;
   color: rgba(240, 248, 255, 0.782);
+  border-radius: 20px;
+  padding: 8px;
+  transform: unset;
+}
+.rubika {
+  color: rgba(4, 4, 4, 0.782);
+  padding: 8px;
+}
+.rubika:hover {
+  background-image: url(../img/logorubica.png);
+  background-position: center;
+  background-size: cover;
+  color: rgb(240, 248, 255);
+  border-radius: 20px;
+  padding: 8px;
+}
+.whatsapp {
+  color: rgba(4, 4, 4, 0.782);
+  padding: 8px;
+}
+.whatsapp:hover {
+  background-image: url(../img/waeg.png);
+  background-position: center;
+  background-size: cover;
+  color: rgb(240, 248, 255);
+  border-radius: 20px;
+  padding: 8px;
+}
+.telegram {
+  color: rgba(4, 4, 4, 0.782);
+  padding: 8px;
+}
+.telegram:hover {
+  background-image: url(../img/tel.png);
+  background-position: center;
+  background-size: cover;
+  color: rgb(240, 248, 255);
   border-radius: 20px;
   padding: 8px;
 }
