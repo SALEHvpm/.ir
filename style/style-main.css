@@ -1,86 +1,38 @@
 @font-face {
-  font-family: "Lalezar-Regular";
-
-  src: url(../fonts/Lalezar-Regular.eot) format("eot"),
-    url(../fonts/Lalezar-Regular.ttf) format("ttf"),
-    url(../fonts/Lalezar-Regular.woff) format("woff");
+  font-family:Lalezar-Regular;
+  src: url(../fonts/Lalezar-Regular.eot) format("eot"), 
+  url(../fonts/Lalezar-Regular.ttf) format("ttf"),
+  url(../fonts/Lalezar-Regular.woff) format("woff");
 }
-
-body {
+*{
   margin: 0;
-  font-family: "Lalezar-Regular";
+  padding: 0;
 }
-@media only screen and (max-width: 412px) {
-  html { max-width:  410px;
-    
-}
-}
-.logo {
-font-size:50px;
-color: rgba(255, 255, 255, 0.838);
-background-image: url(../img/Shot04.png);
-display: block;
-
+/* font family: Lalezar-Regular */
+body{
+  font-family:Lalezar-Regular;
+  direction: rtl;
+  background-image: url(../img/98.png) ;
+  background-repeat: inherit;
+  background-size: cover;
 
 }
-
-.de-a {
+.di_a{
   text-decoration: none;
+  color: black;
 }
-.li-a {
+
+.logo{
+   font-weight: bold;
+   font-size:3em ;
+   color: rgb(137, 137, 137);
+   background-image: url(../img/Shot04.png);
+   display: block;
+   direction: ltr;  }
+
+header ul li{
   list-style-type: none;
+  display: inline-block;
+  margin:15px 10px 0px 10px;
 }
-.header-li {
-  float: right;
-  padding: 0px 2px;
-  color: aliceblue;
-}
-.instagram {
-  color: rgba(4, 4, 4, 0.782);
-  padding: 8px;
-}
-.instagram:hover {
-  background-image: url(../img/logoInsta.jpg);
-  background-position: center;
-  background-size: cover;
-  color: rgba(240, 248, 255, 0.782);
-  border-radius: 20px;
-  padding: 8px;
-  transform: unset;
-}
-.rubika {
-  color: rgba(4, 4, 4, 0.782);
-  padding: 8px;
-}
-.rubika:hover {
-  background-image: url(../img/logorubica.png);
-  background-position: center;
-  background-size: cover;
-  color: rgb(240, 248, 255);
-  border-radius: 20px;
-  padding: 8px;
-}
-.whatsapp {
-  color: rgba(4, 4, 4, 0.782);
-  padding: 8px;
-}
-.whatsapp:hover {
-  background-image: url(../img/waeg.png);
-  background-position: center;
-  background-size: cover;
-  color: rgb(240, 248, 255);
-  border-radius: 20px;
-  padding: 8px;
-}
-.telegram {
-  color: rgba(4, 4, 4, 0.782);
-  padding: 8px;
-}
-.telegram:hover {
-  background-image: url(../img/tel.png);
-  background-position: center;
-  background-size: cover;
-  color: rgb(240, 248, 255);
-  border-radius: 20px;
-  padding: 8px;
-}
+
