@@ -1,38 +1,76 @@
 @font-face {
-  font-family:Lalezar-Regular;
-  src: url(../fonts/Lalezar-Regular.eot) format("eot"), 
-  url(../fonts/Lalezar-Regular.ttf) format("ttf"),
-  url(../fonts/Lalezar-Regular.woff) format("woff");
+  font-family: Lalezar-Regular;
+  src: url(../fonts/Lalezar-Regular.eot) format("eot"),
+    url(../fonts/Lalezar-Regular.ttf) format("ttf"),
+    url(../fonts/Lalezar-Regular.woff) format("woff");
 }
-*{
+
+* {
   margin: 0;
   padding: 0;
 }
-/* font family: Lalezar-Regular */
-body{
-  font-family:Lalezar-Regular;
-  direction: rtl;
-  background-image: url(../img/98.png) ;
-  background-repeat: inherit;
-  background-size: cover;
 
+/* font family: Lalezar-Regular */
+body {
+  font-family: Lalezar-Regular;
+  direction: rtl;
+  background-image: url(../img/98.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
-.di_a{
+
+.di_a {
   text-decoration: none;
   color: black;
 }
 
-.logo{
-   font-weight: bold;
-   font-size:3em ;
-   color: rgb(137, 137, 137);
-   background-image: url(../img/Shot04.png);
-   display: block;
-   direction: ltr;  }
 
-header ul li{
-  list-style-type: none;
-  display: inline-block;
-  margin:15px 10px 0px 10px;
+.logo {
+  font-weight: bold;
+  font-size: 3em;
+  color: rgb(255, 255, 255);
+  background-image: url(../img/Shot04.png);
+  display: block;
+  direction: ltr;
+  text-align: left;
 }
 
+header ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 15px 10px 0px 10px;
+}
+
+header ul {
+  margin-bottom: 16px;
+
+}
+
+.about-me {
+  
+  width: 700px;
+  height: auto;
+  background-color: aliceblue;
+  margin: 0px auto;
+  border-radius: 16px;
+  border: rgba(186, 186, 186, 0.497) solid 4px;
+  
+}
+
+.profile-me {
+  margin-top: 5px;
+  margin-right: 5px;
+  width: 150px;
+  height: 150px;
+  border: rgb(241, 30, 51) dotted 2px;
+  border-radius: 50%;
+  display: inline-block
+}
+.about-me h1{
+  display: inline-block;
+  text-align: right;
+  margin: 0px 10px;
+  
+}
